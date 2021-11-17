@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js" integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="covid.css">
+    <title>Covid-19</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1 class="descriptive-header">COVID-19 TRACKER</h1>
+    </header>
+    
+    <!-- Input Section -->
+    <section class="country-input">
+        <form id="inputMe">
+            <input type="text" placeholder="Enter Your Country" id="fill-in" class="fill-in">
+        </form>
+    </section>
+
+    <section class="covid-info" id="covid-info">
+        <!-- <div class="container">
+            <div class="row-1">
+                <div class="cases-continent">
+                    <p class="continent-text">Continent</p>
+                    <span class="continent-part">Africa</span>
+                </div>
+    
+                <div class="cases-country">
+                    <p class="country-text">Country</p>
+                    <span class="country-part">Nigeria</span>
+                </div>
+    
+                <div class="country-population">
+                    <p class="population-text">Population</p>
+                    <span class="population-part">200000000</span>
+                </div>
+    
+                <div class="date">
+                    <p class="date-text">Today's Date</p>
+                    <span class="date-part">23/10/21</span>
+                </div>
+            </div>
+
+            <div class="row-2">
+                <div class="cases-digit">
+                    <p class="digit-text">Confirmed Cases</p>
+                    <span class="digit-part">108378</span>
+                </div>
+    
+                <div class="cases-tested">
+                    <p class="test-text">Tested</p>
+                    <span class="test-part">865573</span>
+                </div>
+    
+                <div class="cases-recover">
+                    <p class="recover-text">Recovered</p>
+                    <span class="recover-part">284782</span>
+                </div>
+    
+                <div class="cases-deaths">
+                    <p class="death-text">Deaths</p>
+                    <span class="death-part">35467</span>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <canvas id="myChart"  style="width:100%; max-width:700px"></canvas>
+    <script src="covid.js">
+        
+    </script>
+</body>
+</html>
