@@ -10,11 +10,13 @@ header {
     background-color:rgb(64, 64, 126);
     line-height: 2rem;
     height: 3rem;
+    width: 100%;
 }
 
 
 .descriptive-header {
     font-size: large;
+    width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
     margin: 0 auto;
@@ -52,8 +54,9 @@ header {
     align-items: center;
     margin-top: 2rem;
     height: 2rem;
-    width: 70rem;
-    margin-left: 6rem;
+    width: 78rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .container {
@@ -298,9 +301,10 @@ header {
         justify-content: center;
         margin: 0 auto;
         align-items: center;
-        width: 22rem;
+        width: 25rem;
         margin-top: 2rem;
-        margin-left: 4.5rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
         height: 2rem;
     }
 
@@ -320,6 +324,7 @@ header {
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-left: 1rem;
     }
 
     .row-2 {
@@ -332,45 +337,53 @@ header {
 
     .cases-continent {
         width: 21rem;
-        margin-right: 1rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
     }
 
     .cases-country {
         width: 21rem;
-        margin-right: 1rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
     }
 
     .country-population {
         width: 21rem;
-        margin-right: 1rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
     }
 
     .date {
         width: 21rem;
-        margin-right: 1rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
     }
 
     .cases-digit {
         width: 21rem;
-        margin-right: 1rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
     }
 
     .cases-tested {
         width: 21rem;
-        margin-right: 1rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
     }
 
     .cases-recover {
         width: 21rem;
-        margin-right: 1rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
     }
 
     .cases-deaths {
         width: 21rem;
-        margin-right: 1rem;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
     }
 
     #myChart {
-        margin-left: 5rem; 
+        margin-left: 3.8rem; 
     }
 }
