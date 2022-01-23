@@ -297,6 +297,14 @@ header {
 
 /* Media Queries */
 @media screen and (max-width:600px) {
+   header {
+     width: 100%;
+  }
+    
+   .descriptive-header {
+       width: 100%;
+   }
+    
     .fill-in {
         justify-content: center;
         margin: 0 auto;
@@ -337,50 +345,42 @@ header {
 
     .cases-continent {
         width: 21rem;
-        margin-right: 0.5rem;
-        margin-left: 0.5rem;
+        margin-right: 0.8rem;
     }
 
     .cases-country {
         width: 21rem;
-        margin-right: 0.5rem;
-        margin-left: 0.5rem;
+        margin-right: 0.8rem;
     }
 
     .country-population {
         width: 21rem;
-        margin-right: 0.5rem;
-        margin-left: 0.5rem;
+        margin-right: 0.8rem;
     }
 
     .date {
         width: 21rem;
-        margin-right: 0.5rem;
-        margin-left: 0.5rem;
+        margin-right: 0.8rem;
     }
 
     .cases-digit {
         width: 21rem;
-        margin-right: 0.5rem;
-        margin-left: 0.5rem;
+        margin-right: 0.8rem;
     }
 
     .cases-tested {
         width: 21rem;
-        margin-right: 0.5rem;
-        margin-left: 0.5rem;
+        margin-right: 0.8rem;
     }
 
     .cases-recover {
         width: 21rem;
-        margin-right: 0.5rem;
-        margin-left: 0.5rem;
+        margin-right: 0.8rem;
     }
 
     .cases-deaths {
         width: 21rem;
-        margin-right: 0.5rem;
-        margin-left: 0.5rem;
+        margin-right: 0.8rem;
     }
 
     #myChart {
