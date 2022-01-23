@@ -344,43 +344,51 @@ header {
     }
 
     .cases-continent {
-        width: 21rem;
-        margin-right: 0.8rem;
+        width: 90vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 
     .cases-country {
-        width: 21rem;
-        margin-right: 0.8rem;
+        width: 25rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
     .country-population {
-        width: 21rem;
-        margin-right: 0.8rem;
+        width: 25rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
     .date {
-        width: 21rem;
-        margin-right: 0.8rem;
+        width: 25rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
     .cases-digit {
-        width: 21rem;
-        margin-right: 0.8rem;
+        width: 25rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
     .cases-tested {
-        width: 21rem;
-        margin-right: 0.8rem;
+        width: 25rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
     .cases-recover {
-        width: 21rem;
-        margin-right: 0.8rem;
+        width: 25rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
     .cases-deaths {
-        width: 21rem;
-        margin-right: 0.8rem;
+        width: 25rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 
     #myChart {
